@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="/css/fontes.css">
+    <link rel="stylesheet" href="/css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +40,7 @@
         <div class="header__content">
             <nav class="header__nav" aria-label="Menu principal">
                 <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Quem somos</a></li>
+                    <li class="header__nav-item"><a href="#main__about" class="header__nav-link">Quem somos</a></li>
                     <li class="header__nav-item"><a href="#" class="header__nav-link">Eventos</a></li>
                 </ul>
             </nav>
@@ -50,8 +51,19 @@
             </div>
         </div>
     </header>
-    <main class="main">main</main>
+    <main class="main">
+        <div class="main__carousel">
+            <img src="/img/carrossel.png" alt="Imagem de casamento" class="main__carousel-image">
+        </div>
+        <div class="main__about poly-regular" id="main__about">
+            O gerenciador de eventos Quartzo Azul permite a criação, edição e organização de um evento.Com ferramentas como agendas, listas de convidados (onde você controla quem pode ou não participar do seu evento), organizador de tarefas e orçamentos, você consegue inovar e organizar seu próximo evento de maneira muito mais eficiente.
+        </div>
+        <section class="main__events">
+            Eventos
+        </section>
+    </main>    
     <footer class="footer">footer</footer>
+    <script src="script.js" defer></script>
 </body>
 
 </html>

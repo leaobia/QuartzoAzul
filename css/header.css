@@ -35,7 +35,7 @@ header{
 }
 
 .header__nav-item:hover {
-    border-bottom: 2px solid #486591;
+    border-bottom: 3px solid #486591;
 }
 
 .header a{
