@@ -1,15 +1,20 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css';
 import './css/style.css'
 import './css/reset.css'
 import './css/fontes.css'
-import Header from './components/Header';
-import Main from './components/Main';
+import Home from './pages/Home';
+import UserForm from './components/UserForm';
+
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Main/>
-    </div>
+      <Router>
+          <Routes>
+              <Route path="/" element={<Home />} /> 
+              <Route path="/userform" element={<UserForm />} /> 
+          </Routes>
+      </Router>
   );
 }
 

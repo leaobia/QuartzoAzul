@@ -38,9 +38,6 @@ header{
     border-bottom: 3px solid #486591;
 }
 
-.header a{
-    color: #486591;
-}
 
 header button{
     background-color: #486591;
@@ -53,6 +50,9 @@ header button{
     border-radius: 4%;
     transition: scale .3s ease-in-out;
 }
+.header__nav-link, .header__sign-in-link{
+    color: #486591;
+}
 header button:hover{
    scale: 0.8;
 }
@@ -61,6 +61,10 @@ header button:hover{
 }
 .header__sign-in-link:hover{
     font-weight: bolder;
+}
+
+.header__sign-up-link{
+    color: #ffff;
 }
 
 @media (max-width:600px) {

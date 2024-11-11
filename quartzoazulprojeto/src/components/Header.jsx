@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/header.css'
 
 import logo from '../img/logo.png';
@@ -32,7 +33,7 @@ const Header = () => {
         
         <div className="header__buttons">
           <button className="header__cta-button" aria-label="Comece agora">
-            Comece agora
+          <Link to="/userform" className='header__sign-up-link'>Comece agora</Link>
           </button>
           <span className="header__sign-in">
             <a href="#" className="header__sign-in-link" aria-label="Sign in">
